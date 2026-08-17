@@ -62,14 +62,18 @@ body {
      (use justify-content: space-between)
    ============================================= */
 
-.header {
+  .header {
     background-color: #1a1a2e;
     padding: 15px 40px;
     position: sticky;
     top: 0;
     z-index: 100;
-    /* ESCREVA SEU CODIGO AQUI */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .logo {
     font-size: 1.5rem;
